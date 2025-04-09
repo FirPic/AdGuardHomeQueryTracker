@@ -50,6 +50,7 @@ It operates as a DNS server that re-routes tracking domains to a â€œblack holeâ€
     - [Alternative methods](#alternative-methods)
     - [Guides](#guides)
     - [API](#api)
+- [Query Tracker](#query-tracker)
 - [Comparing AdGuard Home to other solutions](#comparison)
     - [How is this different from public AdGuard DNS servers?](#comparison-adguard-dns)
     - [How does AdGuard Home compare to Pi-Hole](#comparison-pi-hole)
@@ -129,6 +130,16 @@ If you want to integrate with AdGuard Home, you can use our [REST API][openapi].
 [hassio]:   https://www.home-assistant.io/integrations/adguard/
 [openapi]:  https://github.com/AdguardTeam/AdGuardHome/tree/master/openapi
 [pyclient]: https://pypi.org/project/adguardhome/
+
+## <a href="#query-tracker" id="query-tracker" name="query-tracker">Query Tracker</a>
+
+The **Query Tracker** feature provides advanced tools to monitor and control DNS queries on your network. It includes the following capabilities:
+
+- **Country-based Blocking**: Block DNS queries originating from specific countries.
+- **Geographical Statistics**: Visualize DNS query data on an interactive map, showing the number of requests (blocked or all) per country.
+- **Daily Blocking Statistics**: Track the total number of blocked requests per day.
+- **Customizable Blocking Panel**: Use a drag-and-drop interface to easily select and manage the countries you want to block.
+
 
 ## <a href="#comparison" id="comparison" name="comparison">Comparing AdGuard Home to other solutions</a>
 
